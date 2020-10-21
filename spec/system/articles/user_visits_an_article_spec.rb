@@ -45,10 +45,11 @@ RSpec.describe "Views an article", type: :system do
 
       before do
         [first_article, second_article].each do |article|
+          puts "PUBLISHED #{article.published_at}"
+          puts "CROSSPOSTED #{article.crossposted_at}"
           additional_characters_length = (ArticleDecorator::LONG_MARKDOWN_THRESHOLD + 1) - article.body_markdown.length
           article.body_markdown << Faker::Hipster.paragraph_by_chars(characters: additional_characters_length)
           article.save!
-          puts article.published_at
         end
       end
 

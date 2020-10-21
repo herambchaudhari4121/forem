@@ -328,8 +328,6 @@ class Article < ApplicationRecord
   end
 
   def readable_publish_date
-    puts "PUBLISHED #{published_at}"
-    puts "CROSSPOSTED #{crossposted_at}"
     relevant_date = displayable_published_at
     if relevant_date && relevant_date.year == Time.current.year
       relevant_date&.strftime("%b %e")
