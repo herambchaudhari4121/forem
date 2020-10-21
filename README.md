@@ -46,8 +46,8 @@
   </a>
 </p>
 
-Welcome to the [Forem](https://forem.com) codebase, the platform that powers
-[dev.to](https://dev.to). We are so excited to have you. With your help, we can
+Most welcome to the [Forem](https://forem.com) codebase, the platform that powers
+[dev.to](https://dev.to). We are so excited to have you. With the help you, we can
 build out Forem’s usability, scalability, and stability to better serve our
 communities.
 
@@ -85,13 +85,13 @@ within our community. ❤️
 
 We encourage you to contribute to Forem! Please check out the
 [Contributing to Forem guide](CONTRIBUTING.md) for guidelines about how to
-proceed.
+proceed next.
 
 ## Getting Started
 
 This section provides a high-level quick start guide. If you're looking for the
 [installation guide](https://docs.forem.com/installation/), you'll want to refer
-to our complete [Developer Documentation](https://docs.forem.com/).
+to our complete then  [Developer Documentation](https://docs.forem.com/).
 
 We run on a [Rails](https://rubyonrails.org/) backend, and we are currently
 transitioning to a [Preact](https://preactjs.com/)-first frontend.
@@ -109,7 +109,7 @@ A more complete overview of our stack is available in
 - [Yarn](https://yarnpkg.com/) 1.x: please refer to their
   [installation guide](https://classic.yarnpkg.com/en/docs/install).
 - [PostgreSQL](https://www.postgresql.org/) 11 or higher.
-- [ImageMagick](https://imagemagick.org/): please refer to ImageMagick's
+- [ImageMagick](https://imagemagick.org/): please refer to the ImageMagick's
   [installation instructions](https://imagemagick.org/script/download.php).
 - [Redis](https://redis.io/) 4 or higher.
 - [Elasticsearch](https://www.elastic.co) 7 or higher.
@@ -158,7 +158,7 @@ A more complete overview of our stack is available in
 
 ## Vulnerability disclosure
 
-Forem is the open source software which powers [DEV](https://dev.to).
+Forem is the open source software which has powers [DEV](https://dev.to).
 
 We welcome security research on DEV under the terms of our
 [vulnerability disclosure policy](https://dev.to/security).
